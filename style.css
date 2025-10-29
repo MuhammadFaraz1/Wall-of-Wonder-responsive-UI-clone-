@@ -75,6 +75,10 @@ nav ul li {
     margin-bottom: 0.5rem;
 }
 
+nav ul li img{
+    width: 100%;
+}
+
 nav ul li:first-child {
     flex-basis: 100%;
 }
@@ -200,7 +204,7 @@ figcaption a {
 
 figure {
     margin: 0 0 0.5rem 0;
-    height: 100%;
+    /* height: 100%; */
     border: 10px solid orange;
     border-radius: 5px;
     max-height: 400px;
@@ -212,7 +216,7 @@ figure img {
     width: 100%;
     /* height: 100%; */
     object-fit: cover;
-    object-position: 0 -110px;
+    /* object-position: 0 -110px; */
 }
 
 figcaption {
@@ -259,7 +263,7 @@ figcaption a {
     color: var(--color6);
 }
 
-/* =====================    Collection-start      =============================== */
+/* =====================    Collection-end     =============================== */
 /* ---------footer------------- */
 
 .footer {

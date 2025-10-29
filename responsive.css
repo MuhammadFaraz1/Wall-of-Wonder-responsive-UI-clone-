@@ -33,6 +33,22 @@
         padding: 0;
     }
 
+    nav ul li img{
+        width: 55%;
+    }
+
+    .mission-content {
+        display: flex;
+    }
+
+    .mission-content img {
+        max-height: 200px;
+    }
+
+    .mission-content p {
+        margin-left: 20px;
+    }
+
     section ul {
         display: flex;
         flex-wrap: wrap;
@@ -72,18 +88,7 @@
     section ul .cool{
         flex-basis:99%
     }
-    .mission-content {
-        display: flex;
-    }
-
-    .mission-content img {
-        max-height: 200px;
-    }
-
-    .mission-content p {
-        margin-left: 20px;
-    }
-
+    
     footer {
         flex-direction: row;
         justify-content: space-between;
@@ -105,6 +110,10 @@
         flex-basis: auto;
         order: 2;
         margin: 0 auto;
+    }
+
+    nav ul li img{
+        width: 100%;
     }
 
     nav ul li:nth-child(2),
